@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace edX_CSharp_Module6
+namespace edX_CSharp_Module7
 {
     class Program
     {
@@ -27,7 +27,14 @@ namespace edX_CSharp_Module6
                 lastName = "Elder",
             };
 
-            Student[] studentsArray = { JohnDoe1, JohnDoe2, JohnDoe3 };
+            //insert grades to students
+            Random rnd = new Random();
+            for (int i = 0; i < 5; i++)
+            {
+                JohnDoe1.Grades.Push(rnd.Next(1, 100));
+                JohnDoe2.Grades.Push(rnd.Next(1, 100));
+                JohnDoe3.Grades.Push(rnd.Next(1, 100));
+            }
 
             //teachers instantiation
             var JohnDoeT1 = new Teacher()
@@ -52,9 +59,13 @@ namespace edX_CSharp_Module6
             var course1 = new Course()
             {
                 name = "Programming with C#",
-                students = studentsArray,
                 teachers = teachersArray
             };
+            //add students using arraylist
+            course1.Students.Add(JohnDoe1);
+            course1.Students.Add(JohnDoe2);
+            course1.Students.Add(JohnDoe3);
+
 
             //degree instantiation
             var degree1 = new Degree()
@@ -72,8 +83,9 @@ namespace edX_CSharp_Module6
 
             Console.WriteLine($"The {Uprogram1.name} program contains the {Uprogram1.degree.name} degree");
             Console.WriteLine($"The {degree1.name} degree contains the course {degree1.course.name}");
-            Console.WriteLine($"The {course1.name} course contains {course1.students.Length} student(s)");
-
+            Console.WriteLine($"The {course1.name} course contains {course1.Students.Count} student(s)");
+            Console.WriteLine("They are: ");
+            course1.ListStuddents();
         }
     }
 }
