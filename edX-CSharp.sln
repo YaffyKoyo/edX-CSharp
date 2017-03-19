@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "edX-CSharp_Module1", "edX-CSharp\edX-CSharp_Module1.csproj", "{7FFB70E1-62C4-4B94-A0D4-9CB05351FEFD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "edX_CSharp_Module1", "edX-CSharp\edX_CSharp_Module1.csproj", "{7FFB70E1-62C4-4B94-A0D4-9CB05351FEFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "edX-CSharp_Module2", "edX-CSharp_Module2\edX-CSharp_Module2.csproj", "{371528CE-04E0-4CD9-87C9-F01E7FA483FB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "edX_CSharp_Module2", "edX-CSharp_Module2\edX_CSharp_Module2.csproj", "{371528CE-04E0-4CD9-87C9-F01E7FA483FB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Peers", "Peers\Peers.csproj", "{DFBA2338-8B32-42F6-BB32-BAF2A95D2CA0}"
 EndProject
@@ -21,7 +21,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "edX_CSharp_Module7", "edX_C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "edX_CSharp_Module8", "edX_CSharp_Module8\edX_CSharp_Module8.csproj", "{46D114DF-4E2C-48B7-9A52-7CA300473A64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mod_9_Homework", "Mod_9_Homework\Mod_9_Homework.csproj", "{B45528C4-AACD-41BA-BC4A-F109E5EDB024}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "edX_CSharp_Module9", "Mod_9_Homework\edX_CSharp_Module9.csproj", "{B45528C4-AACD-41BA-BC4A-F109E5EDB024}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
